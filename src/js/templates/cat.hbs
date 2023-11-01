@@ -1,0 +1,13 @@
+{{#each this}}
+<li class="mb-2">
+    <a href="{{url}}" target="_blank" rel="noopener noreferre" class="text-decoration-none">
+        <article class="card p-2" style="width: 18rem; height: 30rem;">
+            <img src="{{urlToImage}}" alt=""  class="card-img-top">
+            <h5 class="card-title">{{title}}</h5>
+            <p class="card-text">Posted by: {{author}}</p>
+            <p class="card-text overflow-hidden">{{description}}</p>
+        </article>
+    </a>
+</li>
+{{/each}}
+{{!-- width="480" --}}
